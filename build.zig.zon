@@ -1,0 +1,15 @@
+.{
+    .name = "ladybird",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .qtbase = .{
+            .path = "qtbase",
+            //.url = "https://github.com/qt/qtbase/archive/b5fbe0923cfc566036b83c3d968f225b26117efc.tar.gz",
+            //.hash = "1220340fa9da688392030f4d7a0e17ea6c8d942773cf0beeaa78aa4b864d40207ca7",
+        },
+    },
+    .paths = .{
+        ".",
+    },
+}
